@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import classNames from '../../utils/classNames';
 import { ThemeType } from '../../utils/theme';
-import Colors from 'colors';
-import { Arrow } from 'icons';
+import Colors from '@jhdev96/ozone-colors';
+import { Arrow } from '@jhdev96/ozone-icons';
 import { DropdownContext } from './context';
 import styles from './index.module.scss';
 

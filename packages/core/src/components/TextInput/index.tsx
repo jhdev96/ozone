@@ -7,9 +7,9 @@ import {
   withinMinMaxBoundary 
 } from './utils';
 import BaseTextProps from '../../utils/BaseTextProps';
-import { Preview as PreviewIcon } from 'icons';
-import { Hide as HideIcon } from 'icons';
-import Colors from 'colors';
+import { Preview as PreviewIcon } from '@jhdev96/ozone-icons';
+import { Hide as HideIcon } from '@jhdev96/ozone-icons';
+import Colors from '@jhdev96/ozone-colors';
 import styles from './index.module.scss';
 
 

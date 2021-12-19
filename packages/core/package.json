@@ -42,6 +42,8 @@
     "jest": "^26.6.3",
     "node-sass": "^5.0.0",
     "react-test-renderer": "^17.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
     "ts-jest": "^26.5.3",
@@ -52,8 +54,8 @@
     "react-dom": "^17.0.1"
   },
   "dependencies": {
-    "colors": "file:../colors",
-    "icons": "file:../icons",
+    "@jhdev96/ozone-colors": "^1.0.1",
+    "@jhdev96/ozone-icons": "^1.0.0",
     "uuid": "^8.3.2"
   }
 }

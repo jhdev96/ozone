@@ -6,7 +6,7 @@ import {
 } from './utils';
 import classNames from '../../utils/classNames';
 import { ThemeType } from '../../utils/theme';
-import { Close } from 'icons';
+import { Close } from '@jhdev96/ozone-icons';
 import styles from './index.module.scss';
 
 

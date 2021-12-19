@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Arrow } from 'icons';
+import { Arrow } from '@jhdev96/ozone-icons';
 import ClickManager from '../ClickManager';
-import Colors from 'colors';
+import Colors from '@jhdev96/ozone-colors';
 import { ThemeType } from '../../utils/theme';
 import classNames from '../../utils/classNames';
 import styles from './index.module.scss';

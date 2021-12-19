@@ -1,10 +1,10 @@
 import React from 'react';
 import LoadingDots from '../LoadingDots';
-import { Info } from 'icons';
-import { Warning } from 'icons';
-import { Success } from 'icons';
-import { Error } from 'icons';
-import Colors from 'colors';
+import { Info } from '@jhdev96/ozone-icons';
+import { Warning } from '@jhdev96/ozone-icons';
+import { Success } from '@jhdev96/ozone-icons';
+import { Error } from '@jhdev96/ozone-icons';
+import Colors from '@jhdev96/ozone-colors';
 
 
 export type AlertVariation =  "progress"  | 

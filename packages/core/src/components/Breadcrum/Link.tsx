@@ -1,7 +1,7 @@
 import React from 'react';
-import { Arrow } from 'icons';
+import { Arrow } from '@jhdev96/ozone-icons';
 import classNames from '../../utils/classNames';
-import Colors from 'colors';
+import Colors from '@jhdev96/ozone-colors';
 import styles from './index.module.scss';
 
 

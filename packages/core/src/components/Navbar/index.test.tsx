@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from '@testing-library/react';
-import * as icons from 'icons';
+import * as icons from '@jhdev96/ozone-icons';
 import Navbar from ".";
 
 

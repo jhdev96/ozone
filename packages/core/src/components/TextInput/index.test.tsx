@@ -4,7 +4,7 @@ import {
   screen,
   fireEvent 
 } from "@testing-library/react";
-import * as icons from 'icons';
+import * as icons from '@jhdev96/ozone-icons';
 import TextInput from ".";
 
 
