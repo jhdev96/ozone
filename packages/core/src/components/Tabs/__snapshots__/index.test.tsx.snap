@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> renders 3 tabs and a panel 1`] = `
+<div>
+  <div
+    class="tabs"
+  >
+    <div
+      class="tab light active"
+    >
+      apple
+    </div>
+    <div
+      class="tab light"
+    >
+      banana
+    </div>
+    <div
+      class="tab light"
+    >
+      orange
+    </div>
+  </div>
+  <div
+    class="panel"
+  >
+    This is a panel
+  </div>
+</div>
+`;

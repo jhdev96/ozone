@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders a \`primary\` card by default 1`] = `
+<div>
+  <div
+    class="primary light padding wide"
+  >
+    This is a card
+  </div>
+</div>
+`;
+
+exports[`<Card /> renders a card with a dark theme 1`] = `
+<div
+  class="primary dark padding wide"
+  data-testid="test"
+>
+  text
+</div>
+`;
+
+exports[`<Card /> renders a card with padding 1`] = `
+<div>
+  <div
+    class="primary light padding wide"
+    data-testid="test"
+  />
+</div>
+`;
+
+exports[`<Card /> renders the correct width 1`] = `
+<div
+  class="primary light padding narrow"
+  data-testid="narrow"
+/>
+`;
+
+exports[`<Card /> renders the correct width 2`] = `
+<div
+  class="primary light padding wide"
+  data-testid="wide"
+/>
+`;
+
+exports[`<Card /> renders the correct width 3`] = `
+<div
+  class="primary light padding full"
+  data-testid="full"
+/>
+`;

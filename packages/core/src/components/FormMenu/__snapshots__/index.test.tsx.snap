@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormMenu /> renders a form menu with 3 items 1`] = `
+<div
+  class="formMenu light"
+  data-testid="test"
+>
+  <div
+    class="sliderWrapper"
+  >
+    <div
+      class="slider"
+      style="margin-top: 7px;"
+    />
+  </div>
+  <div
+    class="items"
+  >
+    <div
+      class="item action"
+      id="a"
+    >
+      A
+    </div>
+    <div
+      class="item"
+      id="b"
+    >
+      B
+    </div>
+    <div
+      class="item"
+      id="c"
+    >
+      C
+    </div>
+  </div>
+</div>
+`;

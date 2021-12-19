@@ -1,0 +1,100 @@
+@import '../../scss/root';
+@import '../../scss/mixins/navbar/navbar.scss';
+
+
+$mediaMap: ('sm': 480px, 'md': 768px, 'lg': 992px); // for media queries
+
+.nav { 
+  display: flex; 
+  height: fit-content;
+  padding: 0.15rem;
+  font-size: 0.85em;
+
+  svg { vertical-align: text-top; }
+
+  /* Nav Elements */
+  &Brand {
+    padding: 0 0.8em;
+    color: var(--black-core);
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  &Toggle { 
+    display: none; 
+    margin: 0 0.6em;
+    background: none;
+    border: 0 !important;
+    outline: 0 !important;
+    cursor: pointer;
+  }
+
+  &Collapse {
+    height: fit-content;
+    align-self: end;
+  }
+
+  &Content {
+    display: flex; 
+    align-self: center;
+  }
+
+  &Item {
+    margin: 0 0.60em;
+    height: fit-content;
+    line-height: 1.4;
+    cursor: pointer !important;
+  }
+
+  &Link { text-decoration: none; }
+}
+
+// justify
+.start { justify-content: flex-start; }
+.end { justify-content: flex-end; }
+.center { justify-content: center; }
+.space-between { justify-content: space-between; }
+
+// Orientation
+.horizontal {
+  .navContent {
+    flex-direction: row;
+  }
+}
+
+.vertical {
+  .navContent {
+    flex-direction: column;
+  }
+}
+
+// Theme
+.light {
+  .navLink:not(.disabled) {
+    color: var(--black-2) !important;
+  }
+}
+
+.dark {
+  .navLink:not(.disabled) { 
+    color: var(--gray-3); 
+  }
+  .navBrand { color: #fff; }
+}
+
+// isActive
+.active { color: var(--blue-core) !important; }
+
+// isDisabled
+.disabled {
+  color: var(--gray-4) !important;
+  cursor: default;
+}
+
+// expand
+@each $size, $breakpoint in $mediaMap {
+  @media (max-width: $breakpoint) {
+    @include makeResponsive($size);
+  }
+}

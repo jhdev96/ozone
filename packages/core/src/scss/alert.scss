@@ -1,0 +1,54 @@
+@import './root';
+@import './mixins/alert';
+
+
+.alert__mssg {
+  width: 100%;
+  text-align: center;
+  align-self: center;
+}
+
+.alert__close {
+  align-self: end;
+  cursor: pointer;
+}
+
+.alert--progress {
+  @include alert;
+
+  color: var(--black-core);
+  border: 1px solid var(--gray-1);
+  background-color: #fff;
+
+  &__icon {
+    width: 0;
+  }
+}
+
+.alert--info {
+  @include alert;
+
+  color: var(--blue-6);
+  background-color: var(--blue-2);
+}
+
+.alert--error {
+  @include alert;
+
+  color: var(--red-3);
+  background-color: var(--red-1);
+}
+
+.alert--warning {
+  @include alert;
+
+  color: var(--yellow-3);
+  background-color: var(--yellow-1);
+}
+
+.alert--success {
+  @include alert;
+
+  color: var(--green-3);
+  background-color: var(--green-1);
+}

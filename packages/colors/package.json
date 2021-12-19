@@ -1,0 +1,19 @@
+{
+  "name": "@jhdev96/ozone-colors",
+  "version": "1.0.0",
+  "description": "Defined colors for Ozone",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc --outDir lib"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jhdev96/ozone.git",
+    "directory": "packages/colors"
+  },
+  "author": "John Henry",
+  "license": "Apache-2.0"
+}

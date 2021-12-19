@@ -1,0 +1,57 @@
+@import '../../scss/root';
+
+
+.formMenu {
+  position: relative;
+  display: inline-flex;
+  width: fit-content;
+  height: 100%;
+  min-width: 150px;
+  padding: 10px 0;
+}
+
+.sliderWrapper {
+  min-width: 8px;
+
+  .slider {
+    width: 4px;
+    height: 22px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: var(--blue-core);
+    transition: 0.4s;
+  }
+}
+
+.item {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.light {
+  background-color: var(--gray-core);
+  color: var(--black-core);
+
+  .item:hover {
+    color: #000;
+  }
+}
+
+.dark {
+  background-color: var(--black-3);
+  color: var(--gray-core);
+
+  .item:hover {
+    color: #fff;
+  }
+}
+
+.active { color: var(--blue-core) !important; }
+
+.transition {
+  height: 8px !important;
+  width: 8px !important;
+  border-radius: 50%;
+}

@@ -1,0 +1,27 @@
+@mixin horizontalPosition($direction) {
+  $opposite: left;
+
+  @if ($direction == left) {
+    $opposite: right;
+  }
+
+  #{$direction}: auto;
+  #{$opposite}: calc(100% + var(--tooltipMargin));
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+@mixin wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+@mixin popover {
+  position: absolute;
+  z-index: 1000;
+  transform: translateX(-50%);
+  left: 50%;
+  padding: 6px;
+  border-radius: 3px;
+  transition: opacity 0.3s;
+}

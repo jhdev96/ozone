@@ -1,0 +1,53 @@
+@import '../../scss/mixins/loading-dots/variables';
+
+
+@mixin positionDots {
+  display: inline-flex;
+
+  :first-child {
+    margin-right: $dot-separation;
+  }
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  /* Loader elements */
+  .top {
+    @include positionDots;
+  }
+
+  .bottom {
+    @include positionDots;
+
+    .box { 
+      margin-top: $dot-separation; 
+    }
+  }
+
+  .box {
+    min-width: 7px;
+    min-height: 7px;
+    border-radius: 50%;
+    transition: 0.2s opacity;
+    opacity: 1;
+  }
+}
+
+// Position
+@each $position, $value in $positionMap {
+  &.#{$position} {
+    align-items: $value;
+  }
+}
+
+// Theme
+@each $theme, $value in $themeMap {
+  .#{$theme} {
+    .box {
+      background-color: $value;
+    }
+  }
+}

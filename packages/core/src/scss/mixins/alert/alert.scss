@@ -1,0 +1,33 @@
+@mixin floatAnimation {
+  /* Give alerts a floating effect */
+
+  @keyframes float {
+    0% { box-shadow: 0 3px 10px 0 #00000012; }
+    50% { box-shadow: 0 10px 20px 0 #00000012; }
+    100% { box-shadow: 0 3px 10px 0 #00000012; }
+  }
+
+  animation: float 2s ease-in-out infinite;
+}
+
+@mixin alert() {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 97%;
+  padding: 12px 15px;
+  margin: 1rem 0;
+  font-size: 0.85em;
+  border-radius: 4px;
+  box-shadow: 1px 3px 5px #00000012;
+
+  .alert__mssg {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .alert__close-btn {
+    align-self: center;
+    cursor: pointer;
+  }
+}

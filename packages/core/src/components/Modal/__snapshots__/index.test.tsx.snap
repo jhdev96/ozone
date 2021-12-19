@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> renders a modal with a header 1`] = `
+<div
+  class="modal light"
+  data-testid="test"
+>
+  <div>
+    <div
+      class="modalDialog"
+    >
+      <div
+        class="modalContent"
+      >
+        <div
+          class="modalHeader"
+        >
+          Title
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Modal /> renders a modal with a title 1`] = `
+<div
+  class="modal light"
+  data-testid="test"
+>
+  <div>
+    <div
+      class="modalDialog"
+    >
+      <div
+        class="modalContent"
+      >
+        <div
+          class="modalHeader"
+        >
+          <span
+            class="modalTitle"
+          >
+            Title
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

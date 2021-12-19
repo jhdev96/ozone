@@ -1,0 +1,41 @@
+@import '../../scss/root';
+@import '../../scss/mixins/popover/popover.scss';
+
+
+.tooltipWrapper {
+  @include wrapper;
+}
+
+.tooltip {
+  @include popover;
+  
+  color: #fff;
+  background: var(--blue-7);
+  font-size: 12px;
+  line-height: 1;
+  opacity: 1;
+  cursor: default;
+}
+
+/* Position */
+.top {
+  top: calc(var(--tooltipMargin) * -3);
+}
+
+.bottom {
+  bottom: calc(var(--tooltipMargin) * -3);
+}
+
+.left {
+  @include horizontalPosition(left);
+}
+
+.right {
+  @include horizontalPosition(right);
+}
+
+/* State */
+.fadeOut {
+  opacity: 0;
+  transition: opacity 0.3s;
+}

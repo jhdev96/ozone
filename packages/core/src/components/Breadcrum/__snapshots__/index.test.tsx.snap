@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrum /> renders a breadcrum with 3 links 1`] = `
+<div>
+  <nav
+    class="breadcrum"
+    data-testid="test"
+  >
+    <button
+      class="link"
+    >
+      Link 1
+    </button>
+    <svg
+      height="9.1"
+      style="transform: rotate(90deg); align-self: center;"
+      viewBox="0 0 14.4 9.1"
+      width="10.4"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.2,0,0,7.011,2.145,9.1,7.2,4.177,12.255,9.1,14.4,7.011Z"
+        fill="#C4C5D0"
+        id="Path_36"
+        transform="translate(0 0)"
+      />
+    </svg>
+    <button
+      class="link"
+    >
+      Link 2
+    </button>
+    <svg
+      height="9.1"
+      style="transform: rotate(90deg); align-self: center;"
+      viewBox="0 0 14.4 9.1"
+      width="10.4"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7.2,0,0,7.011,2.145,9.1,7.2,4.177,12.255,9.1,14.4,7.011Z"
+        fill="#C4C5D0"
+        id="Path_36"
+        transform="translate(0 0)"
+      />
+    </svg>
+    <button
+      class="link active"
+    >
+      Link 3
+    </button>
+  </nav>
+</div>
+`;
+
+exports[`<Breadcrum /> renders a breadcrum with a dark theme 1`] = `
+<nav
+  class="breadcrum"
+  data-testid="test"
+>
+  <button
+    class="link"
+  >
+    Home
+  </button>
+  <svg
+    height="9.1"
+    style="transform: rotate(90deg); align-self: center;"
+    viewBox="0 0 14.4 9.1"
+    width="10.4"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M7.2,0,0,7.011,2.145,9.1,7.2,4.177,12.255,9.1,14.4,7.011Z"
+      fill="#C4C5D0"
+      id="Path_36"
+      transform="translate(0 0)"
+    />
+  </svg>
+  <div>
+    <div>
+      <span
+        class="overflow"
+      >
+        <button
+          class="dots dark"
+        >
+          <div
+            class="dot"
+          />
+          <div
+            class="dot"
+          />
+          <div
+            class="dot"
+          />
+        </button>
+        <svg
+          height="9.1"
+          style="transform: rotate(90deg); align-self: center;"
+          viewBox="0 0 14.4 9.1"
+          width="10.4"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.2,0,0,7.011,2.145,9.1,7.2,4.177,12.255,9.1,14.4,7.011Z"
+            fill="#C4C5D0"
+            id="Path_36"
+            transform="translate(0 0)"
+          />
+        </svg>
+        <div
+          class="menu dark"
+        >
+          <button
+            class="link"
+          >
+            Documents
+          </button>
+          <svg
+            height="9.1"
+            style="transform: rotate(90deg); align-self: center;"
+            viewBox="0 0 14.4 9.1"
+            width="10.4"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.2,0,0,7.011,2.145,9.1,7.2,4.177,12.255,9.1,14.4,7.011Z"
+              fill="#C4C5D0"
+              id="Path_36"
+              transform="translate(0 0)"
+            />
+          </svg>
+          <button
+            class="link"
+          >
+            Shared
+          </button>
+          <svg
+            height="9.1"
+            style="transform: rotate(90deg); align-self: center;"
+            viewBox="0 0 14.4 9.1"
+            width="10.4"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.2,0,0,7.011,2.145,9.1,7.2,4.177,12.255,9.1,14.4,7.011Z"
+              fill="#C4C5D0"
+              id="Path_36"
+              transform="translate(0 0)"
+            />
+          </svg>
+          <button
+            class="link"
+          >
+            Downloads
+          </button>
+          <svg
+            height="9.1"
+            style="transform: rotate(90deg); align-self: center;"
+            viewBox="0 0 14.4 9.1"
+            width="10.4"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.2,0,0,7.011,2.145,9.1,7.2,4.177,12.255,9.1,14.4,7.011Z"
+              fill="#C4C5D0"
+              id="Path_36"
+              transform="translate(0 0)"
+            />
+          </svg>
+        </div>
+      </span>
+    </div>
+  </div>
+  <button
+    class="link"
+  >
+    Folder1
+  </button>
+  <svg
+    height="9.1"
+    style="transform: rotate(90deg); align-self: center;"
+    viewBox="0 0 14.4 9.1"
+    width="10.4"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M7.2,0,0,7.011,2.145,9.1,7.2,4.177,12.255,9.1,14.4,7.011Z"
+      fill="#C4C5D0"
+      id="Path_36"
+      transform="translate(0 0)"
+    />
+  </svg>
+  <button
+    class="link active"
+  >
+    Folder2
+  </button>
+</nav>
+`;

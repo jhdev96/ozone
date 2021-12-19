@@ -1,0 +1,18 @@
+@import '../../scss/root';
+
+
+.label {
+  display: inline-block;
+  margin: 0.30rem 0.15rem;
+  font-size: 0.9em;
+}
+
+/* Props */
+.required {
+  margin: 0.15rem;
+  color: var(--red-core);
+}
+
+// theme
+.light { color: var(--black-core); }
+.dark { color: var(--gray-1); }

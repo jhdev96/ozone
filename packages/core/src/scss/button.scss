@@ -1,0 +1,73 @@
+@import './root';
+@import './mixins/button/button.scss';
+@import './mixins/button/variables';
+
+
+.button--primary-flat {
+  @include button;
+
+  color: #fff;
+  background-color: var(--blue-core);
+
+  &:hover {
+    background-color: var(--blue-5);
+  }
+}
+
+.button--primary-outline {
+  @include button;
+
+  color: var(--blue-core);
+  border: 1px solid var(--blue-core);
+}
+
+.button--primary {
+  @include button;
+
+  color: #fff;
+  background-color: var(--blue-core);
+  border-radius: 4px;
+}
+
+.button--secondary {
+  @include button;
+
+  color: #fff;
+  background-color: var(--red-core);
+
+  &:hover {
+    background-color: darken(#EC232B, 10%);
+  }
+}
+
+.button--secondary-outline {
+  @include button;
+
+  color: var(--red-core);
+  border: 1px solid var(--red-core);
+}
+
+.button--warning {
+  @include button;
+
+  color: var(--black-core);
+  background-color: var(--yellow-core);
+}
+
+.button--basic {
+  @include button;
+
+  border-radius: 4px;
+
+  &--light {
+    color: var(--black-core);
+    background-color: #fff;
+    border: 1px solid var(--gray-3);
+  }
+
+  &--dark {
+    color: var(--gray-1);
+    border: 1px solid var(--black-5);
+    background-color: var(--black-3) !important;
+  }
+}

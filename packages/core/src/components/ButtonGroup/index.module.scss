@@ -1,0 +1,71 @@
+@import '../../scss/root';
+
+
+$rounded-radius: 15px;
+
+.buttonGroup {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: fit-content;
+  box-shadow: 0px 2px 2px 2px #0000000d !important;
+}
+
+.button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  button {
+    min-height: 20px;
+    min-width: 20px;
+    margin: 0 !important;
+    padding: 10px 15px !important;
+    text-shadow: none !important;
+    background: none !important;
+    border: 0 !important;
+    border-radius: 0;
+    box-shadow: none !important;
+
+    &:focus {
+      outline: 1px auto var(--gray-4) !important;
+    }
+  }
+}
+
+.rounded {
+  border-radius: $rounded-radius;
+
+  .button:first-child {
+    border-radius: $rounded-radius 0 0 $rounded-radius;
+  }
+
+  .button:last-child {
+    border-radius: 0 $rounded-radius $rounded-radius 0;
+  }
+}
+
+.light {
+  background-color: #fff;
+
+  button { color: var(--black-core) !important; }
+
+  .button {
+    &:hover {
+      background-color: #f2f2f2 !important;
+    }
+  }
+}
+
+.dark {
+  background-color: var(--black-4) !important;
+
+  button { color: var(--gray-1) !important; }
+
+  .button {
+    &:hover { 
+      background-color: #2b343e !important; 
+    }
+  }
+}

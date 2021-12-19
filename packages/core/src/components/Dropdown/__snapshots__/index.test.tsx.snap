@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> renders a \`basic\` dropdown by default 1`] = `
+<div
+  class="dropdown__menu dropdown__menu--basic dropdown__menu--basic--light"
+  data-testid="test"
+/>
+`;
+
+exports[`<Dropdown /> renders a dropdown of type \`filter\` 1`] = `
+<div
+  class="dropdown__menu dropdown__menu--filter dropdown__menu--filter--light"
+  data-testid="test"
+/>
+`;

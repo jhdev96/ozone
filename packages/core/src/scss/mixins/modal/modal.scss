@@ -1,0 +1,8 @@
+@mixin modal {
+  display: block !important;
+  top: 150px;
+  z-index: -1;
+  font-size: 0.9em;
+  opacity: 0;
+  transition: 0.3s;
+}

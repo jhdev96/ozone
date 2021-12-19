@@ -1,0 +1,10 @@
+@mixin pill() {
+  position: relative;
+  margin: 5px;
+  padding: 5px 20px;
+  font-size: 0.85em;
+  min-width: 20px;
+  border-radius: 14px;
+  user-select: none;
+  text-align: center;
+}

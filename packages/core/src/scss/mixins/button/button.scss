@@ -1,0 +1,13 @@
+/* button mixins */
+
+@mixin button() {
+  position: relative;
+  width: fit-content;
+  padding: 10px 20px;
+  border: 0;
+  font-size: 0.80em;
+  font-weight: 400;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}

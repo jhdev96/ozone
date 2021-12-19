@@ -1,0 +1,73 @@
+@import '../../scss/mixins/badge/badge.scss';
+
+
+$positionOffset: 7px;
+
+.badge {
+  @include badge;
+}
+
+/* Main badge classes */
+.primary {
+  color: #fff;
+  background-color: var(--blue-core);
+}
+
+.success {
+  color: var(--green-3);
+  background-color: var(--green-1);
+}
+
+.info {
+  color: var(--blue-7);
+  background-color: var(--blue-2);
+}
+
+.warning {
+  color: var(--yellow-3);
+  background-color: var(--yellow-1);
+}
+
+.secondary {
+  color: #fff;
+  background-color: var(--red-core);
+}
+
+.routine {
+  color: var(--black-2);
+  background-color: var(--gray-core);
+}
+
+.rounded { 
+  padding: 4px;
+  min-width: fit-content;
+  width: 12.95px;
+  height: 12px;
+  border-radius: 50%; 
+}
+
+/* Positioning */
+.absolute { 
+  position: absolute !important; 
+  margin: 0 !important;
+}
+
+.topLeft { 
+  top: -$positionOffset; 
+  left: -$positionOffset;
+}
+
+.topRight {
+  top: -$positionOffset;
+  right: -$positionOffset;
+}
+
+.bottomLeft {
+  bottom: -$positionOffset;
+  left: -$positionOffset;
+}
+
+.bottomRight {
+  bottom: -$positionOffset;
+  right: -$positionOffset;
+}

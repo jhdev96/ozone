@@ -1,0 +1,24 @@
+@mixin makeResponsive($size) {
+  .#{$size} {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .navToggle { display: flex; }
+
+    .show {
+      .navItem { padding-bottom: 0.25em; }
+    }
+
+    .navCollapse {
+      flex-basis: 100%;
+      flex-grow: 1;
+
+      .navContent { 
+        padding: 0.25em; 
+        flex-direction: column;
+      }
+    }
+
+    .navCollapse:not(.show) { display: none; }
+  }
+}

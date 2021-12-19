@@ -1,0 +1,46 @@
+@import '../../scss/root';
+
+
+$resizeList: none, both, horizontal, vertical;
+
+.textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid var(--gray-4);
+  font-family: var(--font-family);
+
+  &:focus {
+    border: 1px solid transparent !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px var(--blue-core);
+    transition: 0.3s box-shadow;
+  }
+}
+
+// theme
+.light {
+  color: var(--black-core);
+  background-color: #fff;
+}
+
+.dark {
+  color: var(--gray-1);
+  background-color: var(--black-3);
+}
+
+.error { 
+  color: var(--red-core);
+  border: 1px solid transparent !important;
+  box-shadow: 0 0 0 2px var(--red-core) !important;
+}
+
+// resize prop
+@each $resizeType in $resizeList {
+  .#{$resizeType} {
+    resize: $resizeType;
+  }
+}

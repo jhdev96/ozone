@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> renders a checkbox with an error 1`] = `
+<label
+  class="root"
+  data-testid="test"
+>
+  <div
+    class="checkboxWrapper error"
+    role="checkbox"
+  >
+    <input
+      aria-checked="false"
+      class="input"
+      required=""
+      type="checkbox"
+    />
+    <span
+      class="checkbox"
+    />
+  </div>
+  <span
+    class="text light"
+  >
+    text
+  </span>
+</label>
+`;

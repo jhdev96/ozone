@@ -1,0 +1,44 @@
+h1 { margin-bottom: 10px; font-size: 2.7em; }
+
+p { font-weight: 200 !important; color: #7F808A; }
+
+hr {
+  width: 100%;
+  border: 1px solid #f7f7f7 !important;
+}
+
+.header {
+  padding: 0.25rem;
+  background-color: #05151C;
+  box-shadow: 0 5px 8px 1px rgba(0, 0, 0, 0.038);
+}
+
+.App {
+  padding: 0 200px;
+  margin: 2rem;
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.element-label {
+  margin-bottom: 15px !important;
+}
+
+.narrow-sections {
+  display: inline-flex;
+}
+
+.margin-x {
+  margin: 0 5px;
+}
+
+.margin-y {
+  margin: 5px 0;
+}
+
+.no-margin {
+  margin: 0 !important;
+}

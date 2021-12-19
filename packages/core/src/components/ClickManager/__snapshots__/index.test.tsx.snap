@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClickManager /> passes \`classNames\` to the wrapper component 1`] = `
+<div>
+  <div
+    class="testCss"
+  >
+    <span
+      data-testid="test"
+    >
+      Hello
+    </span>
+  </div>
+</div>
+`;

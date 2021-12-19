@@ -1,0 +1,70 @@
+@import '../../scss/mixins/popover/popover.scss';
+@import '../../scss/mixins/popover/position';
+@import '../../scss/mixins/popover/variables';
+
+
+@mixin fadeTransition() {
+  /* Create a magnifying effect on 
+   * the popper by making the font
+   * larger. 
+  */
+  font-size: 1.1em;
+
+  &.fade { font-size: 0.4em; }
+}
+
+@mixin applyTheme($direction) {
+  @each $theme, $rule in $themeMap {
+    &.#{$theme} {
+      &::before {
+        border-#{$direction}-color: map-get($rule, 'bg');
+      }
+  
+      color: map-get($rule, 'text');
+      background-color: map-get($rule, 'bg');
+    }
+  }
+}
+
+.popoverWrapper {
+  @include wrapper;
+}
+
+.popover {
+  @include popover;
+
+  &::before {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    margin-left: $arrowSize * -1;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border: solid transparent;
+    border-width: $arrowSize;
+  }
+
+  opacity: 1;
+  padding: 20px;
+  border-radius: 0.50em;
+  white-space: nowrap;
+  font-size: 0.9em;
+  transition: 0.2s opacity, 
+              0.2s font-size;
+}
+
+/* Position */
+@each $position in $positions {
+  .#{$position} {
+    @include verticalPosition($position);
+    @include fadeTransition;
+    @include applyTheme($position)
+  }
+};
+
+/* State */ 
+.fade {
+  opacity: 0;
+  transition: 0.2s opacity 0.2s font-size;
+}

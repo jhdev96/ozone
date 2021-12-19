@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders a \`primary\` button by default 1`] = `
+<button
+  aria-busy="false"
+  class="primary medium light"
+  data-testid="test"
+  type="button"
+>
+  text
+</button>
+`;

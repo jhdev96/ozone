@@ -1,0 +1,28 @@
+@import '../../scss/root';
+
+
+.tabs {
+  display: inline-flex;
+
+  .tab {
+    width: fit-content;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+}
+
+.panel { margin: 10px 0; }
+
+// context
+.active {
+  background-color: var(--blue-2);
+}
+
+.light {
+  color: var(--black-core);
+}
+
+.dark:not(.active) {
+  color: var(--gray-1);
+}

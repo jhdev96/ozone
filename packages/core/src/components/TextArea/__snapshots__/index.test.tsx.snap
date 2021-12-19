@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> renders the correct css classes 1`] = `
+<textarea
+  class="textarea light both"
+  id="test"
+  rows="3"
+/>
+`;

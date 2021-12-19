@@ -1,0 +1,19 @@
+@import '../../root';
+
+
+// primary button border colors
+$button-bc1: rgba(0, 0, 0, 0);
+$button-bc2: rgba(0, 0, 0, 0.1);
+$button-bc3: rgba(0, 0, 0, 0.07);
+
+// primary button box shadow colors
+$primary-shade1: rgba(255, 255, 255, 0.2);
+$primary-shade2: rgba(0, 0, 0, 0.05);
+
+// primary button gradient background
+$primary-gradient: linear-gradient(to bottom, 
+                                   var(--blue-core), 
+                                   var(--blue-5));
+$secondary-gradient: linear-gradient(to bottom, 
+                                     var(--red-core), 
+                                     var(--pink-core)); 

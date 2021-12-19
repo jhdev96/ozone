@@ -1,0 +1,43 @@
+@import './popover.scss';
+@import './variables';
+
+
+@function positionArrow($direction) {
+  /* 
+   * When the popover appears to the left
+   * of a target, the arrow needs to be
+   * positioned closer to the target.
+  */
+  @if ($direction == left) {
+    @return $arrowSize * -2;
+  }
+  @return $arrowSize * -1;
+}
+
+@mixin horizontalPopoverPosition($direction) {
+  @include horizontalPosition($direction);
+
+  $opposite: left;
+  @if ($direction == left) {
+    $opposite: right;
+  }
+
+  #{$opposite}: calc(100% + 0.7em) !important;
+
+  &::before {
+    #{$direction}: auto;
+    #{$opposite}: positionArrow($direction);
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+  }
+
+  box-shadow: 1px 2px 20px 4px $shadowColor;
+}
+
+@mixin verticalPosition($direction) {
+  box-shadow: 1px -1px 20px 4px $shadowColor;
+
+  &::before {
+    #{$direction}: 100%;
+  }
+}

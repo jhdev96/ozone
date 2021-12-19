@@ -1,0 +1,15 @@
+@import '../../root';
+
+
+$dot-separation: 4px;
+$positionMap: (
+  left: flex-start,
+  right: flex-end,
+  center: center
+);
+$themeMap: (
+  light: #fff,
+  dark: #000,
+  blue: var(--blue-core),
+  red: var(--red-core)
+);

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> sets the correct position 1`] = `
+<div>
+  <div
+    class="tooltipWrapper"
+  >
+    text
+    <div
+      class="tooltip top"
+    />
+  </div>
+  <div
+    class="tooltipWrapper"
+  >
+    text
+    <div
+      class="tooltip bottom"
+    />
+  </div>
+  <div
+    class="tooltipWrapper"
+  >
+    text
+    <div
+      class="tooltip left"
+    />
+  </div>
+  <div
+    class="tooltipWrapper"
+  >
+    text
+    <div
+      class="tooltip right"
+    />
+  </div>
+</div>
+`;

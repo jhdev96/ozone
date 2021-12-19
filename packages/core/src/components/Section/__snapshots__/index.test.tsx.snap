@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Section /> renders a primary section by default 1`] = `
+<div>
+  <section
+    class="section primary light fullWidth"
+  >
+    <div
+      class="topLeftBorder"
+    />
+    <div
+      class="header"
+    >
+      <div
+        class="title"
+      >
+        Section title
+      </div>
+      <div
+        class="topRightBorder"
+      />
+    </div>
+    <div
+      class="body"
+    />
+  </section>
+</div>
+`;

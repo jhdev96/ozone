@@ -1,0 +1,130 @@
+@import '../../scss/root';
+
+
+.modal {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  display: block !important;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  overflow: hidden;
+  outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: 0.2s;
+  background-color: #05151c68;
+
+  .close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    float: right;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .4;
+    font-size: 1.2em;
+    text-shadow: none !important;
+    font-weight: 500;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: none !important;
+    outline: none !important;
+
+    &:hover { opacity: 1; }
+  }
+
+  &Content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-clip: padding-box;
+    box-shadow: 1px 3px 25px 5px #00000017;
+    border-radius: .3rem;
+    outline: 0;
+  }
+
+  &Header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+    // border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+  }
+
+  &Title {
+    margin: 0.4em 0 !important;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  &Footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: .7rem;
+    // border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(.3rem - 1px);
+    border-bottom-left-radius: calc(.3rem - 1px);
+  }
+
+  &Body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+  }
+
+  &Dialog {
+    position: relative;
+    margin: .5rem;
+    pointer-events: none;
+    max-width: 500px;
+    margin: 1.75rem auto;
+    transform: translateY(50px);
+    transition: transform .2s ease-out;
+  }
+}
+
+/* Modifiers */
+.visible {
+  display: block;
+  z-index: 1050;
+  top: 0px !important;
+  opacity: 1 !important;
+
+  .modalDialog {
+    transform: translateY(0px);
+  }
+}
+
+.light {
+  .modalContent {
+    background-color: #fff;
+  }
+}
+
+.dark {
+  .modalContent {
+    color: var(--gray-1);
+    background-color: var(--black-4);
+  }
+  .modal__header {
+    border-bottom: 1px solid var(--black-3);
+  }
+  .modal__footer {
+    border-top: 1px solid var(--black-3);
+  }
+  .close { color: var(--gray-core); }
+}
+
+.fade { transition: opacity .15s linear; }

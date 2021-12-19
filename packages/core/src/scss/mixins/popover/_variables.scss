@@ -1,0 +1,10 @@
+@import '../../root';
+
+
+$arrowSize: 10px;
+$shadowColor: #0000001b;
+$themeMap: (
+  light: ('bg': #fff, 'text': var(--black-core)),
+  dark: ('bg': var(--black-6), text: var(--gray-1))
+);
+$positions: left, right, top, bottom;

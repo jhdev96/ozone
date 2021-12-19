@@ -1,0 +1,121 @@
+@import '../../scss/root';
+@import '../../scss/mixins/radio/animations';
+
+
+.radioWrapper {
+  display: block;
+  position: relative;
+  margin: 0.50rem 0;
+  max-width: 15px;
+  max-height: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.input {
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.input:checked ~ .radio {
+  border-color: var(--blue-core);
+  transition: border-color 0.6s;
+}
+
+.input:checked ~ .radio:after {
+  display: block;
+}
+
+.input:disabled ~ .radio {
+  background-color: rgba(0, 0, 0, 0.043);
+  border: 2px solid #0000001d;
+
+  .ripple-inner {
+    background-color: #0000001d;
+  }
+}
+
+.input:disabled ~ .radio:after {
+  border-color: var(--gray-4);
+}
+
+.radio {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--gray-3);
+}
+
+.text {
+  vertical-align: middle;
+  margin-left: 25px;
+  color: var(--black-core);
+}
+
+.radio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+// Transition
+.ripple-outer-ring {
+  margin: auto;
+  width: 3.5px;
+  height: 3.5px;
+  border: 1px solid var(--blue-core);
+  border-radius: 50%;
+  animation: ripple 0.4s ease-out forwards,
+             fade 0.4s ease-out forwards;
+}
+
+.ripple-inner {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  opacity: 0;
+  background-color: var(--blue-core);
+  animation: fadeIn 0.4s ease-out 0.2s forwards;
+}
+
+// hasError prop
+.error { 
+  border-color: var(--red-core) !important;
+  color: var(--red-core) !important; 
+
+  .radio { border-color: var(--red-1); }
+
+  .ripple-outer-ring {
+    border: 1px solid var(--red-core);
+  }
+
+  .ripple-inner {
+    background-color: var(--red-core);
+  }
+
+  ~ .text { color: var(--red-core) !important; }
+}
+
+// isDisabled prop
+.disabled { color: var(--black-2) !important; }
+
+// theme prop
+.dark {
+  .input:disabled ~ .radio {
+    background-color: rgba(0, 0, 0, 0.043);
+    border: 2px solid var(--black-2);
+  
+    .ripple-inner {
+      background-color: var(--black-2);
+    }
+  }
+  
+  .text { color: var(--gray-core); }
+}

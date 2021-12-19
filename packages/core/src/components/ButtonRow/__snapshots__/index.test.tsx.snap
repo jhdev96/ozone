@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonRow /> renders a button row with \`center\` placement 1`] = `
+<div>
+  <div
+    class="buttonRow center"
+  >
+    <div>
+      <button
+        aria-busy="false"
+        class="basic medium light"
+        type="button"
+      >
+        Back
+      </button>
+      <button
+        aria-busy="false"
+        class="primary medium light"
+        type="button"
+      >
+        Continue
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ButtonRow /> renders a button row with \`left\` placement 1`] = `
+<div>
+  <div
+    class="buttonRow left"
+  >
+    <div>
+      <button
+        aria-busy="false"
+        class="basic medium light"
+        type="button"
+      >
+        Back
+      </button>
+      <button
+        aria-busy="false"
+        class="primary medium light"
+        type="button"
+      >
+        Continue
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ButtonRow /> renders a button row with \`right\` placement 1`] = `
+<div>
+  <div
+    class="buttonRow left"
+  >
+    <div>
+      <button
+        aria-busy="false"
+        class="basic medium light"
+        type="button"
+      >
+        Back
+      </button>
+      <button
+        aria-busy="false"
+        class="primary medium light"
+        type="button"
+      >
+        Continue
+      </button>
+    </div>
+  </div>
+</div>
+`;

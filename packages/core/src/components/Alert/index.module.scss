@@ -1,0 +1,63 @@
+@import '../../scss/root';
+@import '../../scss/mixins/alert/alert.scss';
+
+
+/* Main alert classes */
+.progress {
+  @include alert;
+
+  &--light {
+    color: var(--black-core);
+    border: 1px solid var(--gray-1);
+    background-color: #fff;
+  }
+  &--dark {
+    color: var(--gray-1);
+    border: 1px solid var(--black-5);
+    background-color: var(--black-3) !important;
+  }
+}
+
+.info {
+  @include alert;
+
+  color: var(--blue-6);
+  background-color: var(--blue-2);
+}
+
+.error {
+  @include alert;
+
+  color: var(--red-4);
+  background-color: var(--red-0);
+}
+
+.warning {
+  @include alert;
+
+  color: var(--yellow-4);
+  background-color: var(--yellow-1);
+}
+
+.success {
+  @include alert;
+
+  color: var(--green-3);
+  background-color: var(--green-1);
+
+  &__icon {
+    color: #215F0C;
+  }
+}
+
+.mssg {
+  @extend .alert__mssg;
+}
+
+.closeBtn {
+  @extend .alert__close-btn;
+}
+
+.animate {
+  @include floatAnimation;
+}

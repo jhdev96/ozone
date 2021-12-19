@@ -1,0 +1,27 @@
+{
+  "name": "@jhdev96/ozone-icons",
+  "version": "1.0.0",
+  "description": "Icons for ozone",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc -m commonjs --outDir lib/cjs",
+    "build:esm": "tsc --outDir lib/esm"
+  },
+  "author": "John Henry",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "directory": "git@github.com:jhdev96/ozone.git",
+    "url": "packages/icons"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "typescript": "^4.5.3"
+  }
+}

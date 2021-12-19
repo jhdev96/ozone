@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pill /> renders a pill of type \`routine\` by default 1`] = `
+<div>
+  <span
+    class="routine"
+  >
+    text
+  </span>
+</div>
+`;
+
+exports[`<Pill /> renders the correct variations 1`] = `
+<div>
+  <span
+    class="info"
+  >
+    text
+  </span>
+  <span
+    class="success"
+  >
+    text
+  </span>
+  <span
+    class="warning"
+  >
+    text
+  </span>
+  <span
+    class="error"
+  >
+    text
+  </span>
+  <span
+    class="routine"
+  >
+    text
+  </span>
+</div>
+`;

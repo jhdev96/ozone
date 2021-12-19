@@ -1,0 +1,15 @@
+$placementMap: (
+  'left': flex-start,
+  'center': center,
+  'right': flex-end
+);
+
+.buttonRow {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@each $placement, $rule in $placementMap {
+  .#{$placement} { align-items: $rule; }
+}

@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResult /> matches snapshot 1`] = `
+<div>
+  <div
+    class="result"
+  >
+    text
+  </div>
+</div>
+`;
+
+exports[`<Searchbox /> renders a search icon inside the searchbox 1`] = `
+<div
+  class="searchContainer light"
+  data-testid="test"
+>
+  <div
+    class="mainSearch"
+  >
+    <span
+      class="searchIcon"
+    >
+      <svg
+        height="14.6"
+        viewBox="0 0 14.6 16.6"
+        width="12.6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          id="Ellipse_1"
+          stroke="#7F808A"
+          stroke-width="2.5"
+        >
+          <circle
+            cx="6"
+            cy="6"
+            r="6"
+            stroke="none"
+          />
+          <circle
+            cx="6"
+            cy="6"
+            fill="none"
+            r="4.75"
+          />
+        </g>
+        <line
+          fill="none"
+          id="Line_5"
+          stroke="#7F808A"
+          stroke-linecap="round"
+          stroke-width="3"
+          transform="translate(9.5 10.5)"
+          x2="3"
+          y2="4"
+        />
+      </svg>
+    </span>
+    <input
+      autocomplete="off"
+      class="searchInput"
+      placeholder="Search"
+      type="text"
+    />
+    <span
+      class="searchFilter"
+    />
+  </div>
+  <div
+    class="searchResults"
+  />
+</div>
+`;
+
+exports[`<Searchbox /> renders a searchbox with an outline 1`] = `
+<div>
+  <div
+    class="searchWrapper"
+  >
+    <div
+      class="searchContainer light outline"
+    >
+      <div
+        class="mainSearch"
+      >
+        <span
+          class="searchIcon"
+        >
+          <svg
+            height="14.6"
+            viewBox="0 0 14.6 16.6"
+            width="12.6"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              id="Ellipse_1"
+              stroke="#7F808A"
+              stroke-width="2.5"
+            >
+              <circle
+                cx="6"
+                cy="6"
+                r="6"
+                stroke="none"
+              />
+              <circle
+                cx="6"
+                cy="6"
+                fill="none"
+                r="4.75"
+              />
+            </g>
+            <line
+              fill="none"
+              id="Line_5"
+              stroke="#7F808A"
+              stroke-linecap="round"
+              stroke-width="3"
+              transform="translate(9.5 10.5)"
+              x2="3"
+              y2="4"
+            />
+          </svg>
+        </span>
+        <input
+          autocomplete="off"
+          class="searchInput"
+          placeholder="Search"
+          type="text"
+        />
+        <span
+          class="searchFilter"
+        />
+      </div>
+      <div
+        class="searchResults"
+      />
+    </div>
+  </div>
+</div>
+`;

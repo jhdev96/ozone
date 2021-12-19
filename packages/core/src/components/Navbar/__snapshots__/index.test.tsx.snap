@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> adds space between the brand and the links 1`] = `
+<div>
+  <nav
+    class="nav horizontal space-between light lg"
+  >
+    <a
+      class="navBrand"
+    >
+      Brand
+    </a>
+    <ul
+      class="navContent"
+    >
+      <li
+        class="navItem"
+      >
+        Item 1
+      </li>
+      <li
+        class="navItem"
+      >
+        Item 2
+      </li>
+      <li
+        class="navItem"
+      >
+        Item 3
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar /> centers the navbar items 1`] = `
+<div>
+  <nav
+    class="nav horizontal center light lg"
+  >
+    <a
+      class="navBrand"
+    >
+      Brand
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar /> places the navbar items at the end 1`] = `
+<div>
+  <nav
+    class="nav horizontal end light lg"
+  >
+    <a
+      class="navBrand"
+    >
+      Brand
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar /> renders a navbar with a brand link 1`] = `
+<div>
+  <nav
+    class="nav horizontal start light lg"
+  >
+    <a
+      class="navBrand"
+    >
+      Brand
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar /> renders a navbar with a collapse 1`] = `
+<div>
+  <nav
+    class="nav horizontal start light lg"
+  >
+    <a
+      class="navBrand"
+    >
+      Brand
+    </a>
+    <div
+      class="navCollapse"
+      id="collapse"
+    >
+      <ul
+        class="navContent"
+      >
+        <li
+          class="navItem"
+        >
+          A
+        </li>
+        <li
+          class="navItem"
+        >
+          B
+        </li>
+        <li
+          class="navItem"
+        >
+          C
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar /> renders a navbar with a toggle button 1`] = `
+<div>
+  <nav
+    class="nav horizontal start light lg"
+  >
+    <a
+      class="navBrand"
+    >
+      Brand
+    </a>
+    <button
+      class="navToggle"
+      type="button"
+    >
+      <svg
+        height="10"
+        style="align-self: center;"
+        viewBox="0 0 16 9.5"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          data-name="Group 4"
+          id="Group_4"
+          transform="translate(-452 -68)"
+        >
+          <rect
+            height="1.5"
+            id="Rectangle_703"
+            rx="0.75"
+            transform="translate(452 68)"
+            width="16"
+          />
+          <rect
+            height="1.5"
+            id="Rectangle_706"
+            rx="0.75"
+            transform="translate(452 72)"
+            width="16"
+          />
+          <rect
+            height="1.5"
+            id="Rectangle_707"
+            rx="0.75"
+            transform="translate(452 76)"
+            width="16"
+          />
+        </g>
+      </svg>
+    </button>
+    <div
+      class="navCollapse"
+      id="collapse"
+    >
+      <ul
+        class="navContent"
+      >
+        <li
+          class="navItem"
+        >
+          A
+        </li>
+        <li
+          class="navItem"
+        >
+          B
+        </li>
+        <li
+          class="navItem"
+        >
+          C
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar /> renders a navbar with horizontal orientation by default 1`] = `
+<div>
+  <nav
+    class="nav horizontal start light lg"
+    data-testid="test"
+  >
+    <ul
+      class="navContent"
+    >
+      <li
+        class="navItem"
+      >
+        <a
+          class="navLink"
+          href="#"
+        >
+          Link 1
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar /> sets the \`justify\` prop to \`start\` by default 1`] = `
+<div>
+  <nav
+    class="nav horizontal start light lg"
+    data-testid="test"
+  />
+</div>
+`;
+
+exports[`<Navbar /> sets the \`orientation\` prop to \`vertical\` 1`] = `
+<div>
+  <nav
+    class="nav vertical start light lg"
+  />
+</div>
+`;

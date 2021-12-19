@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> renders a badge with the correct placement: bottomLeft 1`] = `
+<span
+  class="badge routine absolute bottomLeft"
+  data-testid="test3"
+>
+  10
+</span>
+`;
+
+exports[`<Badge /> renders a badge with the correct placement: bottomRight 1`] = `
+<span
+  class="badge routine absolute bottomRight"
+  data-testid="test4"
+>
+  10
+</span>
+`;
+
+exports[`<Badge /> renders a badge with the correct placement: topLeft 1`] = `
+<span
+  class="badge routine absolute topLeft"
+  data-testid="test1"
+>
+  10
+</span>
+`;
+
+exports[`<Badge /> renders a badge with the correct placement: topRight 1`] = `
+<span
+  class="badge routine absolute topRight"
+  data-testid="test2"
+>
+  10
+</span>
+`;
+
+exports[`<Badge /> renders a circular badge 1`] = `
+<span
+  class="badge routine rounded"
+  data-testid="badge"
+>
+  1
+</span>
+`;

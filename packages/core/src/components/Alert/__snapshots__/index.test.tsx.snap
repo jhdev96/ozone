@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert /> matches snapshots 1`] = `
+<div
+  class="progress progress--light"
+  data-testid="progress"
+  role="alert"
+>
+  <div
+    class="progressIcon loader dark left"
+  >
+    <div
+      class="top"
+    >
+      <div
+        class="box"
+        style="opacity: 1; min-height: 6px; min-width: 6px;"
+      />
+      <div
+        class="box"
+        style="opacity: 0; min-height: 6px; min-width: 6px;"
+      />
+    </div>
+    <div
+      class="bottom"
+    >
+      <div
+        class="box"
+        style="opacity: 0; min-height: 6px; min-width: 6px;"
+      />
+      <div
+        class="box"
+        style="opacity: 0; min-height: 6px; min-width: 6px;"
+      />
+    </div>
+  </div>
+  <div
+    class="mssg"
+  >
+    Message
+  </div>
+  <div
+    class="closeBtn"
+  >
+    <svg
+      height="10"
+      id="Cancel"
+      viewBox="0 0 15.021 15.021"
+      width="7"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.374,14.5l-4.95-4.95L2.475,14.5A1.5,1.5,0,0,1,.354,12.374L5.3,7.425.354,2.475A1.5,1.5,0,0,1,2.475.354L7.425,5.3l4.95-4.95A1.5,1.5,0,0,1,14.5,2.475l-4.95,4.95,4.95,4.95A1.5,1.5,0,1,1,12.374,14.5Z"
+        fill="#7F808A"
+        id="Union_3"
+        transform="translate(0.086 0.086)"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> matches snapshots 2`] = `
+<div
+  class="info info--light"
+  data-testid="info"
+  role="alert"
+>
+  <svg
+    class="infoIcon"
+    height="15"
+    id="info-icon"
+    viewBox="0 0 4 15"
+    width="4"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="2"
+      cy="2"
+      fill="#236CB7"
+      id="Ellipse_297"
+      r="2"
+    />
+    <path
+      d="M0,9.559H1A1.957,1.957,0,0,0,3,7.647V0H0Z"
+      fill="#236CB7"
+      id="Rectangle_1532"
+      transform="translate(0.5 5.441)"
+    />
+  </svg>
+  <div
+    class="mssg"
+  >
+    Message
+  </div>
+  <div
+    class="closeBtn"
+  >
+    <svg
+      height="10"
+      id="Cancel"
+      viewBox="0 0 15.021 15.021"
+      width="7"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.374,14.5l-4.95-4.95L2.475,14.5A1.5,1.5,0,0,1,.354,12.374L5.3,7.425.354,2.475A1.5,1.5,0,0,1,2.475.354L7.425,5.3l4.95-4.95A1.5,1.5,0,0,1,14.5,2.475l-4.95,4.95,4.95,4.95A1.5,1.5,0,1,1,12.374,14.5Z"
+        fill="#236CB7"
+        id="Union_3"
+        transform="translate(0.086 0.086)"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> matches snapshots 3`] = `
+<div
+  class="warning warning--light"
+  data-testid="warning"
+  role="alert"
+>
+  <svg
+    class="warningIcon"
+    height="15"
+    id="warning-icon"
+    viewBox="0 0 4 15"
+    width="4"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="2"
+      cy="2"
+      fill="#714601"
+      id="Ellipse_296"
+      r="2"
+      transform="translate(0 11)"
+    />
+    <rect
+      fill="#714601"
+      height="10"
+      id="Rectangle_1531"
+      rx="1.5"
+      transform="translate(0.5)"
+      width="3"
+    />
+  </svg>
+  <div
+    class="mssg"
+  >
+    Message
+  </div>
+  <div
+    class="closeBtn"
+  >
+    <svg
+      height="10"
+      id="Cancel"
+      viewBox="0 0 15.021 15.021"
+      width="7"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.374,14.5l-4.95-4.95L2.475,14.5A1.5,1.5,0,0,1,.354,12.374L5.3,7.425.354,2.475A1.5,1.5,0,0,1,2.475.354L7.425,5.3l4.95-4.95A1.5,1.5,0,0,1,14.5,2.475l-4.95,4.95,4.95,4.95A1.5,1.5,0,1,1,12.374,14.5Z"
+        fill="#714601"
+        id="Union_3"
+        transform="translate(0.086 0.086)"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> matches snapshots 4`] = `
+<div
+  class="success success--light"
+  data-testid="success"
+  role="alert"
+>
+  <svg
+    class="successIcon"
+    height="13.397"
+    viewBox="0 0 14.242 14.397"
+    width="13.242"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      id="Component_74_1"
+      transform="translate(1.299 0.444)"
+    >
+      <g
+        id="Group_146"
+        transform="translate(-498.31 -3301.875) rotate(-4)"
+      >
+        <line
+          fill="none"
+          id="Line_2"
+          stroke="#215F0C"
+          stroke-linecap="round"
+          stroke-width="3"
+          transform="translate(267.073 3336.275)"
+          x2="3.427"
+          y2="3.224"
+        />
+        <path
+          d="M7.817-1.6,1.7,7.672"
+          fill="none"
+          id="Path_38"
+          stroke="#215F0C"
+          stroke-linecap="round"
+          stroke-width="3"
+          transform="translate(268.811 3331.831)"
+        />
+      </g>
+    </g>
+  </svg>
+  <div
+    class="mssg"
+  >
+    Message
+  </div>
+  <div
+    class="closeBtn"
+  >
+    <svg
+      height="10"
+      id="Cancel"
+      viewBox="0 0 15.021 15.021"
+      width="7"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.374,14.5l-4.95-4.95L2.475,14.5A1.5,1.5,0,0,1,.354,12.374L5.3,7.425.354,2.475A1.5,1.5,0,0,1,2.475.354L7.425,5.3l4.95-4.95A1.5,1.5,0,0,1,14.5,2.475l-4.95,4.95,4.95,4.95A1.5,1.5,0,1,1,12.374,14.5Z"
+        fill="#215F0C"
+        id="Union_3"
+        transform="translate(0.086 0.086)"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`<Alert /> matches snapshots 5`] = `
+<div
+  class="error error--light"
+  data-testid="error"
+  role="alert"
+>
+  <svg
+    class="errorIcon"
+    height="15.817"
+    viewBox="0 0 11.3 15.817"
+    width="11.3"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      id="error-fire"
+      transform="translate(0 -0.1)"
+    >
+      <path
+        d="M-542-3218.083a6.007,6.007,0,0,1-6-6c0-3.289,5.713-9.753,5.771-9.818a2.815,2.815,0,0,0,.23.486,19.62,19.62,0,0,0,1.149,1.788l.086.126.254.374c-.023.029-2.261,2.794-2.215,4.1a2.426,2.426,0,0,0,2.432,2.349h.131a2.227,2.227,0,0,0,1.6-.681,2.221,2.221,0,0,0,.616-1.654,8.461,8.461,0,0,1,1.249,3.6,5.4,5.4,0,0,1-1.407,3.91A5.329,5.329,0,0,1-542-3218.083Z"
+        fill="#d01d23"
+        id="Subtraction_16"
+        transform="translate(548 3234)"
+      />
+    </g>
+  </svg>
+  <div
+    class="mssg"
+  >
+    Message
+  </div>
+  <div
+    class="closeBtn"
+  >
+    <svg
+      height="10"
+      id="Cancel"
+      viewBox="0 0 15.021 15.021"
+      width="7"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12.374,14.5l-4.95-4.95L2.475,14.5A1.5,1.5,0,0,1,.354,12.374L5.3,7.425.354,2.475A1.5,1.5,0,0,1,2.475.354L7.425,5.3l4.95-4.95A1.5,1.5,0,0,1,14.5,2.475l-4.95,4.95,4.95,4.95A1.5,1.5,0,1,1,12.374,14.5Z"
+        fill="#d01d23"
+        id="Union_3"
+        transform="translate(0.086 0.086)"
+      />
+    </svg>
+  </div>
+</div>
+`;

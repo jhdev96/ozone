@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGroup /> Renders a button group with 3 buttons 1`] = `
+<div
+  class="buttonGroup rounded light"
+  data-testid="test"
+>
+  <div
+    class="button"
+  >
+    <button
+      aria-busy="false"
+      class="primary medium light"
+      type="button"
+    >
+      A
+    </button>
+  </div>
+  <div
+    class="button"
+  >
+    <button
+      aria-busy="false"
+      class="primary medium light"
+      type="button"
+    >
+      B
+    </button>
+  </div>
+  <div
+    class="button"
+  >
+    <button
+      aria-busy="false"
+      class="primary medium light"
+      type="button"
+    >
+      C
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<ButtonGroup /> renders a button group with a dark theme 1`] = `
+<div
+  class="buttonGroup rounded dark"
+  data-testid="test"
+>
+  <div
+    class="button"
+  >
+    <button
+      aria-busy="false"
+      class="primary medium light"
+      type="button"
+    >
+      A
+    </button>
+  </div>
+  <div
+    class="button"
+  >
+    <button
+      aria-busy="false"
+      class="primary medium light"
+      type="button"
+    >
+      B
+    </button>
+  </div>
+  <div
+    class="button"
+  >
+    <button
+      aria-busy="false"
+      class="primary medium light"
+      type="button"
+    >
+      C
+    </button>
+  </div>
+</div>
+`;

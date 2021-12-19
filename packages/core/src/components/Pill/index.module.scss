@@ -1,0 +1,39 @@
+@import '../../scss/root';
+@import '../../scss/mixins/pill/pill.scss';
+
+
+/* Main pill classes */
+.success {
+  @include pill;
+
+  color: var(--green-3);
+  background-color: var(--green-1);
+}
+
+.info {
+  @include pill;
+
+  color: var(--blue-6);
+  background-color: var(--blue-2);
+}
+
+.warning {
+  @include pill;
+
+  color: var(--yellow-4);
+  background-color: var(--yellow-1);
+}
+
+.error {
+  @include pill;
+
+  color: var(--red-4);
+  background-color: var(--red-1);
+}
+
+.routine {
+  @include pill;
+
+  color: var(--black-2);
+  background-color: var(--gray-core);
+}

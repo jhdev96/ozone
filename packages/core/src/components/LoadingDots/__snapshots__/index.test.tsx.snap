@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingDots /> renders loading dots in the specified position 1`] = `
+<div>
+  <div
+    class="loader light left"
+  >
+    <div
+      class="top"
+    >
+      <div
+        class="box"
+        style="opacity: 1; min-height: 7px; min-width: 7px;"
+      />
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+    </div>
+    <div
+      class="bottom"
+    >
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+    </div>
+  </div>
+  <div
+    class="loader light center"
+  >
+    <div
+      class="top"
+    >
+      <div
+        class="box"
+        style="opacity: 1; min-height: 7px; min-width: 7px;"
+      />
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+    </div>
+    <div
+      class="bottom"
+    >
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+    </div>
+  </div>
+  <div
+    class="loader light right"
+  >
+    <div
+      class="top"
+    >
+      <div
+        class="box"
+        style="opacity: 1; min-height: 7px; min-width: 7px;"
+      />
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+    </div>
+    <div
+      class="bottom"
+    >
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+      <div
+        class="box"
+        style="opacity: 0; min-height: 7px; min-width: 7px;"
+      />
+    </div>
+  </div>
+</div>
+`;

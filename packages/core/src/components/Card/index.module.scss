@@ -1,0 +1,61 @@
+@import '../../scss/root';
+@import '../../scss/mixins/card/card.scss';
+
+
+.primary {
+  @include card;
+
+  &.light {
+    color: var(--black-core);
+
+    .header { background-color: #fff; }
+    .body { background-color: var(--blue-1); }
+  }
+  
+  &.dark {
+    color: var(--gray-1);
+
+    .header { background-color: var(--black-4); }
+    .body { background-color: var(--black-6); }
+  }
+}
+
+.basic {
+  @include card;
+
+  &.light {
+    background-color: #fff;
+
+    .header {
+      color: var(--black-2);
+      border-bottom: 1px solid var(--gray-1);
+    }
+  }
+  
+  &.dark {
+    color: var(--gray-core);
+    background-color: var(--black-4);
+
+    .header {
+      color: var(--gray-3);
+      border-bottom: 1px solid var(--black-3);
+    }
+  }
+}
+
+/* Card elements */
+.title { align-self: center; }
+
+.body {
+  border-radius: 0 0 6px 6px;
+  font-size: 0.9em;
+}
+
+/* Card modifiers */
+.padding {
+  .body { padding: 15px; }
+}
+
+.narrow { width: 50%; }
+.wide { width: 75%; }
+.full { width: 100%; }

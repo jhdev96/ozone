@@ -1,0 +1,77 @@
+@import '../../scss/root';
+
+
+.menu {
+  visibility: hidden;
+  position: fixed;
+  z-index: 1000;
+  width: 180px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.098);
+  opacity: 0;
+
+  &Title {
+    padding: 10px;
+    font-size: 0.9em;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  &Items {
+    margin-bottom: 0 !important;
+    list-style: none;
+    padding: 0 0;
+    z-index: 1000;
+  }
+
+  &Item {
+    font-weight: 500;
+    z-index: 1000;
+    font-size: 0.85rem;
+    padding: 10px 40px 10px 15px;
+    cursor: pointer;
+
+    &:last-child {
+      border-radius: 0 0 6px 6px;
+    }
+
+    &-text {
+      margin-left: 7px;
+      vertical-align: text-top;
+    }
+
+    &:hover {
+      background: var(--blue-0);
+    }
+  }
+
+  &Break {
+    margin: 0.20rem auto;
+    width: 90%;
+    border: 1px solid var(--gray-core) !important;
+  }
+}
+
+// Theme
+.light { background-color: #fff; }
+
+.dark {
+  color: #fff;
+  background-color: var(--black-3);
+
+  .menuBreak {
+    border: 1px solid var(--black-2) !important;
+  }
+}
+
+.visible {
+  transform: translateY(15px);
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s opacity, 0.3s transform;
+}
+
+.openUp {
+  transform: translateY(-10px) !important;
+}

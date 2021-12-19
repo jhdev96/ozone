@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioInput /> renders a radio input with an error 1`] = `
+<label
+  class="light"
+  data-testid="test"
+>
+  <div
+    class="radioWrapper error"
+  >
+    <input
+      class="input"
+      required=""
+      type="radio"
+    />
+    <span
+      class="radio"
+    />
+  </div>
+  <span
+    class="text"
+  >
+    text
+  </span>
+</label>
+`;

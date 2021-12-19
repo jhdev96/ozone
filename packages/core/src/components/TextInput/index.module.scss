@@ -1,0 +1,98 @@
+@import '../../scss/root';
+
+ 
+.inputWrapper {
+  display: inline-flex;
+  width: 100%;
+  padding: .375rem .75rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: 0.1s box-shadow;
+
+  .icon {
+    height: fit-content;
+    align-self: center;
+    margin-right: 5px;
+  }
+
+  .clearBtn {
+    margin-top: -1px;
+    align-self: center;
+    color: var(--gray-4);
+    cursor: pointer;
+  }
+}
+
+.input {
+  width: 100%;
+  border: 0 !important;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  &::placeholder {
+    color: var(--gray-4);
+  }
+
+  &:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.validationMssg {
+  display: inline-block;
+  font-size: 0.75em;
+}
+
+.togglePassword {
+  align-self: center;
+  max-height: 20px;
+  cursor: pointer;
+}
+
+/* Modifiers for props */ 
+
+.focus {
+  border: 1px solid transparent !important;
+  box-shadow: 0 0 0 2px var(--blue-core);
+  transition: 0.3s box-shadow;
+}
+
+.autofill {
+  background-color: var(--blue-1) !important;
+}
+
+.light {
+  border: 1px solid var(--gray-3);
+  color: var(--black-core);
+  background-color: #fff;
+}
+
+.dark {
+  border: 1px solid var(--gray-3);
+  background-color: var(--black-3);
+
+  .input { 
+    color: var(--gray-1);
+    background-color: var(--black-3); 
+  }
+}
+
+.error {
+  border: 1px solid var(--red-core);
+
+  .input::placeholder {
+    color: var(--red-1);
+  }
+
+  & ~ .validationMssg {
+    color: var(--red-core);
+  }
+}
+
+.disabled {
+  background-color: var(--gray-core);
+
+  .input { color: var(--black-1); }
+}

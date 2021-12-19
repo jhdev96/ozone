@@ -1,0 +1,62 @@
+:root {
+  --blue-0: #7790ac27;
+  --blue-1: #F5FAFF;
+  --blue-2: #BEECFF;
+  --blue-3: #18abe8;
+  --blue-core: #00BDFF;
+  --blue-5: #008cc7;
+  --blue-6: #236CB7;
+  --blue-7: #05151C;
+
+  --green-1: #D9F0D1;
+  --green-core: #2BFFC6;
+  --green-3: #215F0C;
+
+  --yellow-1: #FFF5D3;
+  --yellow-core: #FFA41C;
+  --yellow-3: #e38800;
+  --yellow-4: #714601;
+
+  --red-0: #ff8086;
+  --red-1: #FF5961;
+  --red-core: #EC232B;
+  --red-3: #d01d23;
+  --red-4: #7D0D10;
+
+  --pink-core: #fe0988;
+
+  --gray-0: #5757570b;
+  --gray-1: #F7F7F7;
+  --gray-core: #E9E9E9;
+  --gray-3: #dfe7ee;
+  --gray-4: #C4C5D0;
+
+  --black-1: #8B8DA0;
+  --black-2: #7F808A;
+  --black-3: #494a54;
+  --black-4: #383f47;
+  --black-core: #353640;
+  --black-6: #2b343e;
+  --black-7: #232b34;
+
+  --tooltipMargin: 10px;
+  --font-family: sans-serif;
+
+  font-family: var(--font-family);
+
+  h5 {
+    font-weight: 500;
+  }
+
+  ul { 
+    margin: 0; 
+    list-style-type: none; 
+    padding-left: 0; 
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus {
+    box-shadow: 0 0 0px 1000px var(--blue-1) inset !important;
+  }
+}
