@@ -1,0 +1,13 @@
+language: node_js
+node_js: '12'
+
+install: 
+  - npm install
+script:
+  - npm run bootstrap
+  - npm run build
+  - npm test
+
+deploy:
+  on:
+    branch: main

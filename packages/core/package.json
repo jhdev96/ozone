@@ -1,6 +1,6 @@
 {
   "name": "@jhdev96/ozone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components for building UIs",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
