@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "React-based toolkit and design library for building UIs",
   "scripts": {
-    "start": "cd site && npm run dev",
+    "start": "npm run bootstrap && cd site && npm run dev",
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
     "build": "lerna run build"

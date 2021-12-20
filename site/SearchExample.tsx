@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {SearchBox, SearchResult } from 'core';
+import {SearchBox, SearchResult } from '@jhdev96/ozone';
 
 
 export default function SearchExample(): JSX.Element 

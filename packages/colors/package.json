@@ -1,6 +1,6 @@
 {
   "name": "@jhdev96/ozone-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Defined colors for Ozone",
   "main": "lib/index.js",
   "scripts": {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Tabs, Tab, TabPanel } from 'core';
+import {Tabs, Tab, TabPanel } from '@jhdev96/ozone';
 
 
 export default function TabsExample(): JSX.Element 

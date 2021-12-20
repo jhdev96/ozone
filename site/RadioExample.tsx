@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {RadioInput} from 'core';
+import {RadioInput} from '@jhdev96/ozone';
 
 
 export default function RadioExample(): JSX.Element 

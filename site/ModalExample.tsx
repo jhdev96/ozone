@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import {Button} from 'core';
-import {ButtonRow} from 'core';
-import {Modal} from 'core';
+import {Button} from '@jhdev96/ozone';
+import {ButtonRow} from '@jhdev96/ozone';
+import {Modal} from '@jhdev96/ozone';
 
 
 export default function ModalExample(): JSX.Element 

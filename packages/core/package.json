@@ -56,6 +56,7 @@
   "dependencies": {
     "@jhdev96/ozone-colors": "^1.0.1",
     "@jhdev96/ozone-icons": "^1.0.0",
+    "node-sass": ">=4.12",
     "uuid": "^8.3.2"
   }
 }

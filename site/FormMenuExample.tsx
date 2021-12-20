@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import {FormMenu} from 'core';
-import {Button} from 'core';
-import {ButtonRow} from 'core';
-import {Section} from 'core';
+import {FormMenu} from '@jhdev96/ozone';
+import {Button} from '@jhdev96/ozone';
+import {ButtonRow} from '@jhdev96/ozone';
+import {Section} from '@jhdev96/ozone';
 
 
 interface Props {

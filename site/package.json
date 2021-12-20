@@ -19,6 +19,7 @@
     "@types/react": "^17.0.37",
     "@webpack-cli/serve": "^1.6.0",
     "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
     "node-sass": "^7.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -29,11 +30,10 @@
     "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
+    "@jhdev96/ozone": "^1.0.0",
+    "@jhdev96/ozone-colors": "^1.0.1",
+    "@jhdev96/ozone-icons": "^1.0.0",
     "babel-loader": "^8.2.3",
-    "colors": "file:../packages/colors",
-    "core": "file:../packages/core",
-    "html-webpack-plugin": "^5.5.0",
-    "icons": "file:../packages/icons",
     "webpack-cli": "^4.9.1"
   }
 }

@@ -1,32 +1,32 @@
 import React from 'react';
-import { Alert } from 'core';
-import { Badge } from 'core';
-import { Button } from 'core';
-import { ButtonRow } from 'core';
-import { ButtonGroup } from 'core';
-import { Breadcrum } from 'core';
-import { Card } from 'core';
-import { Checkbox } from 'core';
-import { ContextMenu } from 'core';
-import { RadioInput } from 'core'
+import { Alert } from '@jhdev96/ozone';
+import { Badge } from '@jhdev96/ozone';
+import { Button } from '@jhdev96/ozone';
+import { ButtonRow } from '@jhdev96/ozone';
+import { ButtonGroup } from '@jhdev96/ozone';
+import { Breadcrum } from '@jhdev96/ozone';
+import { Card } from '@jhdev96/ozone';
+import { Checkbox } from '@jhdev96/ozone';
+import { ContextMenu } from '@jhdev96/ozone';
+import { RadioInput } from '@jhdev96/ozone'
 import RadioExample from './RadioExample';
-import { Dropdown } from 'core'
-import { Section } from 'core'
+import { Dropdown } from '@jhdev96/ozone'
+import { Section } from '@jhdev96/ozone'
 import ModalExample from './ModalExample';
-import { Navbar } from 'core'
-import { Pill } from 'core'
-import * as icons from 'icons';
-import { FormMenu } from 'core'
+import { Navbar } from '@jhdev96/ozone'
+import { Pill } from '@jhdev96/ozone'
+import * as icons from '@jhdev96/ozone-icons';
+import { FormMenu } from '@jhdev96/ozone'
 import FormMenuExample from './FormMenuExample';
-import { SearchBox } from 'core'
+import { SearchBox } from '@jhdev96/ozone'
 import SearchExample from './SearchExample';
-import { TextInput } from 'core'
-import { Tooltip } from 'core'
-import { Popover } from 'core'
-import { Label } from 'core'
+import { TextInput } from '@jhdev96/ozone'
+import { Tooltip } from '@jhdev96/ozone'
+import { Popover } from '@jhdev96/ozone'
+import { Label } from '@jhdev96/ozone'
 import TabsExample from './TabsExample';
-import { TextArea } from 'core'
-import Colors from 'colors';
+import { TextArea } from '@jhdev96/ozone'
+import Colors from '@jhdev96/ozone-colors';
 import './App.css';
 
 
