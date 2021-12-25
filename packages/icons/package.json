@@ -1,6 +1,6 @@
 {
   "name": "@jhdev96/ozone-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Icons for ozone",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
@@ -21,7 +21,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@types/react": "^17.0.37",
+    "@types/react": "*",
     "typescript": "^4.5.3"
   }
 }
