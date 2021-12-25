@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "React-based toolkit and design library for building UIs",
   "scripts": {
-    "start": "npm run bootstrap && cd site && npm run dev",
+    "start": "cd playground && npm run dev",
     "bootstrap": "lerna bootstrap --no-ci",
     "test": "lerna run test",
     "build": "lerna run build"
@@ -17,6 +17,7 @@
     "@types/react-dom": "^17.0.2",
     "@types/react-test-renderer": "^17.0.1",
     "@types/uuid": "^8.3.0",
+    "@webpack-cli/serve": "^1.6.0",
     "babel-jest": "^26.6.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",

@@ -1,15 +1,11 @@
 {
-  "name": "site",
+  "name": "playground",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A development playground for viewing the React components",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm rebuild node-sass; npx webpack serve --config webpack.config.js --mode development --hot"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/plugin-proposal-class-properties": "^7.16.5",
@@ -30,7 +26,7 @@
     "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
-    "@jhdev96/ozone": "^1.0.0",
+    "@jhdev96/ozone": "^1.0.1",
     "@jhdev96/ozone-colors": "^1.0.1",
     "@jhdev96/ozone-icons": "^1.0.0",
     "babel-loader": "^8.2.3",
