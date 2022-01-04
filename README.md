@@ -38,7 +38,9 @@ where components can be viewed.
 
 ## Testing
 
-To test the components run `npm test`:
+To test the components run the following commands from the project root: 
+1. `npm run build`
+2. `npm test`
 
 ## License
 
